@@ -1,0 +1,9 @@
+path: ../dataset  # 실제 데이터 경로
+
+train: images/train  # 더미 경로. 실제 사용 안 해도 됨
+val: .  # 실제 coco json과 이미지 있는 경로 (dataset 내부 기준)
+
+nc: 5
+
+names: ['car', 'truck', 'motorcycle', 'bicycle', 'bus']
+
